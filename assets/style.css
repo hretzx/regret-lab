@@ -1,0 +1,39 @@
+* { border-radius: 0 !important; box-shadow: none !important; }
+html, body, [class*="css"], .stApp {
+  font-family: "Helvetica Neue", Inter, Arial, sans-serif; background: #fff; color: #111;
+}
+#MainMenu, header, footer, [data-testid="stToolbar"], [data-testid="stDecoration"],
+[data-testid="stStatusWidget"], .stDeployButton, [data-testid="stSidebar"] {
+  display: none !important; visibility: hidden;
+}
+.block-container { max-width: 1100px; padding: 3.5rem 2rem 7rem; margin: 0 auto; }
+.wordmark { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; }
+.headline { font-weight: 300; font-size: 3.4rem; line-height: 1.08; letter-spacing: -0.01em;
+            margin: 5rem 0 1.2rem; padding: 0; max-width: 780px; }
+.sub { color: #767676; font-size: 14px; margin: 0 0 1rem; }
+.rule { border: 0; border-top: 1px solid #E5E5E5; margin: 4.5rem 0 1.8rem; }
+.section { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: #767676; margin-bottom: 1.6rem; }
+.caption { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: #767676; margin: 2rem 0 0.6rem; }
+.method p { font-size: 14px; line-height: 1.7; margin: 0 0 0.5rem; max-width: 640px; }
+[data-testid="stWidgetLabel"] p { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: #767676; }
+[data-testid="stForm"] { border: 0; padding: 0; }
+.stButton > button, [data-testid^="stBaseButton"], [data-testid="stFormSubmitButton"] button {
+  background: #111; color: #fff; border: 1px solid #111; padding: 0.85rem 2.4rem;
+  font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 400;
+}
+.stButton > button p, [data-testid="stFormSubmitButton"] button p { color: inherit; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; }
+.stButton > button:hover, [data-testid^="stBaseButton"]:hover, [data-testid="stFormSubmitButton"] button:hover {
+  background: #fff; color: #111; border: 1px solid #111;
+}
+[data-baseweb="select"] > div, [data-baseweb="input"], [data-baseweb="base-input"] {
+  background: #fff !important; border: 0 !important; border-bottom: 1px solid #111 !important;
+}
+[data-testid="stNumberInputStepUp"], [data-testid="stNumberInputStepDown"] { display: none; }
+[data-baseweb="slider"] [role="slider"] { background: #111 !important; border: 0 !important; height: 12px; width: 12px; }
+[data-testid="stSliderThumbValue"], [data-testid="stSlider"] [data-testid="stTickBarMin"],
+[data-testid="stSlider"] [data-testid="stTickBarMax"] { color: #111; font-size: 11px; }
+.tbl { width: 100%; border-collapse: collapse; font-size: 14px; }
+.tbl th { font-size: 11px; font-weight: 400; letter-spacing: 0.08em; text-transform: uppercase; color: #767676;
+          text-align: right; padding: 0 0 0.7rem; border: 0; border-bottom: 1px solid #111; }
+.tbl td { text-align: right; padding: 0.9rem 0; border: 0; font-variant-numeric: tabular-nums; }
+.tbl th:first-child, .tbl td:first-child { text-align: left; }
